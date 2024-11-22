@@ -1,0 +1,22 @@
+li::marker {
+    content: none;
+}
+
+span + button {
+    margin-left: 1rem;
+    margin-bottom: .25rem;
+}
+
+.list-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: .25rem;
+}
+
+button.btn-outline-danger {
+    width: 7rem;
+    padding: auto 0;
+    margin-bottom: 0;
+}
