@@ -20,3 +20,11 @@ button.btn-outline-danger {
     padding: auto 0;
     margin-bottom: 0;
 }
+
+.new-list-input, .new-list-item-input {
+    margin-top: 1rem;
+}
+
+#App {
+    margin-top: 1rem;
+}

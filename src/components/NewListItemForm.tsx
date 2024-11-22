@@ -23,7 +23,7 @@ const NewListItemForm = ({ addListItem, listId }: NewListItemFormProps) => {
           onChange={(e) => setNewListItem(e.target.value)}
           type="text"
           id="item"
-          className="form-control"
+          className="form-control new-list-input"
         />
       </div>
       <br />

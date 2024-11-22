@@ -59,7 +59,7 @@ const App = () => {
   };
 
   return (
-    <>
+    <div className="container" id="App">
       <div className="container text-center">
         <NewListForm addList={addList} />
       </div>
@@ -84,7 +84,7 @@ const App = () => {
           ))}
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

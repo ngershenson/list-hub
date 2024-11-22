@@ -20,7 +20,6 @@ const NewListForm = ({ addList }: NewListFormProps) => {
         <label htmlFor="item" className="form-label">
           <div className="text-center">
             <h1 className="display-2">Welcome to ListHub!</h1>
-            <h1 className="display-6">Add New List</h1>
           </div>
         </label>
         <input
@@ -28,7 +27,8 @@ const NewListForm = ({ addList }: NewListFormProps) => {
           onChange={(e) => setNewList(e.target.value)}
           type="text"
           id="item"
-          className="form-control"
+          className="form-control new-list-input"
+          placeholder="Enter List Name"
         />
       </div>
       <br />
